@@ -7,7 +7,7 @@ export function AsideSearch() {
   return (
     <div className={styles.aside_container}>
       <Search />
-      <Categories /> //TODO: CAMBIAR POR DROPDOWNS
+      <Categories />
       <Genres />
     </div>
   );
