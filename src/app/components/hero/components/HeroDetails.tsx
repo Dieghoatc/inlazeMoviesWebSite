@@ -2,8 +2,7 @@ import { FavoriteLogo } from "./FavoriteLogo";
 import { SavedLogo } from "./SavedLogo";
 import { ShareLogo } from "./ShareLogo";
 import { DotsProgressBar } from "./DotsProgressBar";
-
-import styles from "./HeroDetails.module.css";
+import styles from "./heroDetails.module.css";
 
 export function HeroDetails() {
   return (
