@@ -1,0 +1,34 @@
+.categories {
+  margin-top: 20px;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.categories select {
+  background-color: #1c1c1c;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin-top: 16px;
+  height: 40px;
+  width: 228px;
+  padding: 0 20px;
+  background-position-x: 93%;
+}
+
+.select {
+  background: url("../../../../../assets/arrow_down.svg") no-repeat right center;
+}
+
+.option_placeholder {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.select option {
+  font-size: 14px;
+  font-weight: 400;
+}
