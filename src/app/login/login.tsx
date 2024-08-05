@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { User } from "../types";
-import { singIn } from "../services/loginService";
+import { loginService } from "../services/loginService";
 
 export default function LoginPage() {
   const [credentials, setCredentials] = useState<User>({
@@ -22,7 +22,7 @@ export default function LoginPage() {
 
     console.log(credentials);
 
-    const response = await singIn(credentials);
+    const response = await loginService(credentials);
     console.log(response);
   }
 
