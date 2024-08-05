@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { User } from "../types";
-import { loginService } from "../services/loginService";
+import { User } from "../../../../../types";
+import { loginService } from "../../../../../services/loginService";
 
 export default function LoginUser() {
   const [credentials, setCredentials] = useState<User>({

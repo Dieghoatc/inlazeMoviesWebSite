@@ -1,0 +1,71 @@
+.login_user_container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.register {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 223px;
+  height: 46px;
+  color: #fff;
+  border-radius: 16px;
+  background-color: #262626;
+  margin-top: 120px;
+  justify-self: center;
+}
+
+.sign_up {
+  background-color: #f0b90b;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign_up p {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.log_in {
+  background-color: #262626;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.log_in p {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.button_register {
+  justify-self: center;
+  align-self: flex-end;
+  width: 424px;
+  height: 46px;
+  background-color: #f0b90b;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_register p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.button_register svg {
+  margin-left: 10px;
+}
+.support {
+  justify-self: center;
+  align-self: flex-end;
+}
+
+.support p {
+  font-size: 12;
+  color: #fff;
+  font-weight: 400;
+}

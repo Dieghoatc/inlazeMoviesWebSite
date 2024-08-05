@@ -1,8 +1,8 @@
 import styles from "./navbar.module.css";
 import { Logo } from "./Logo";
-import { SignIn } from "./SignInLogo";
 import { ModeLogo } from "./ModeLogo";
 import { HamburgerLogo } from "./HamburgerLogo";
+import { Login } from "./components/login/LogIn";
 
 export function Navbar() {
   return (
@@ -27,8 +27,8 @@ export function Navbar() {
         <div className={styles.mode_logo}>
           <ModeLogo />
         </div>
-        <div className={styles.sign_in_logo}>
-          <SignIn />
+        <div>
+          <Login />
         </div>
         <div className={styles.hamburger_menu}>
           <HamburgerLogo />
