@@ -2,7 +2,7 @@ import styles from "./hero.module.css";
 import Po from "../../assets/images/Po.jpg";
 
 import { HeroDetails } from "./components/HeroDetails";
-import { CircularProgressBar } from "../CirclularProgressBar/CircularProgressBar";
+import { CircleProgressBar } from "../circleProgressBar/CircleProgressBar";
 
 export function Hero() {
   return (
@@ -21,7 +21,7 @@ export function Hero() {
         <HeroDetails />
       </div>
       <div className={styles.circle_progress_bar}>
-        <CircularProgressBar />
+        <CircleProgressBar />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
-import styles from "./circularProgressBar.module.css";
+import styles from "./circleProgressBar.module.css";
 
-export function CircularProgressBar() {
+export function CircleProgressBar() {
   return (
     <div className={styles.circle_container}>
       <div className={styles.circle_svg}>
