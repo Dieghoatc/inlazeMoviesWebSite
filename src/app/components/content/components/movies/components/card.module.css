@@ -26,6 +26,7 @@
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 8px;
+  overflow-x: hidden;
 }
 
 .card_date {

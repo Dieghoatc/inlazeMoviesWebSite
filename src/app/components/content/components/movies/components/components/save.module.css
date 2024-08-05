@@ -1,3 +1,7 @@
+.save_button {
+  cursor: pointer;
+}
+
 .save_button path:hover {
   fill: #f1cb51;
 }

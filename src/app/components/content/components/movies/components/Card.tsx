@@ -1,9 +1,8 @@
+import { Movie } from "@/app/services/api/types/movieTypes";
 import styles from "./card.module.css";
-import shrek from "@/app/assets/images/shrek_5.jpg";
 import { CircularProgressBarSmall } from "./components/CircularProgressBarSmall";
 import { Favorites } from "./components/Favorites";
 import { Save } from "./components/Save";
-import { Movie } from "@/app/services/api/types";
 
 interface CardProps {
   movies: Movie;
