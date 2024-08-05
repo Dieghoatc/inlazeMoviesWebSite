@@ -1,4 +1,4 @@
-import styles from "./Hero.module.css";
+import styles from "./hero.module.css";
 import Po from "../../assets/images/Po.jpg";
 
 import { HeroDetails } from "./components/HeroDetails";
