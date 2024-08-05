@@ -4,7 +4,7 @@ import { useState } from "react";
 import { User } from "../types";
 import { loginService } from "../services/loginService";
 
-export default function LoginPage() {
+export default function LoginUser() {
   const [credentials, setCredentials] = useState<User>({
     email: "",
     password: "",
@@ -19,11 +19,7 @@ export default function LoginPage() {
 
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-
-    console.log(credentials);
-
     const response = await loginService(credentials);
-    console.log(response);
   }
 
   return (
